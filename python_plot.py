@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 #plot a cos curve from 0 to 2pi
 
 t = np.linspace(0,2*np.pi,100)
-plt.plot(t,np.cos(t),'m', label = 'Cosine Curve')
+plt.plot(t,t,'m', label = 'Cosine Curve')
 plt.title('Plot of $\cos{x}$')
 plt.xlabel('t (s)')
 plt.ylabel('$y(t)$')
